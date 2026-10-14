@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+.pg-data/
+.env
+.env.*
+!.env.example
+uploads/*
+!uploads/.gitkeep
+*.log
+.DS_Store
+
+# Clés de service (Firebase…)
+secrets/
+*-firebase-adminsdk-*.json
